@@ -1,0 +1,1237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_1{
+    text-align: center;
+    justify-content: center; 
+    background: url(Images/Homepage-Model-3-Desktop-LHD.jfif);
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+}
+
+.header_1 h6{
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+}
+
+.span_text{
+    color: black;
+}
+ 
+nav{
+    text-align: center;
+    justify-content: space-between;
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+    position: fixed;
+}
+
+nav li{
+    list-style: none;
+    display: inline-flex;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 6px;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.left{
+    width: 20%;
+}
+
+.right{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.menu_for_mobile{
+    display: none;
+}
+
+.mobile_menu{
+    display: none;
+}
+
+.header_1 h1{
+    padding-top: 100px;
+}  
+
+.buttons{
+    margin-top: 400px;
+}
+
+.button_1{
+    width: 275px;
+    height: 40px;
+    background-color: rgb(156, 153, 153);
+    border-width: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button_2{
+    width: 275px;
+    height: 40px;
+    background-color: white;
+    color: rgb(156, 153, 153);
+    border-width: 0;
+    border-radius: 5px;
+}
+
+.button_1_text{
+    text-decoration: none;
+    color: white;
+}
+
+.button_2_text{
+    text-decoration: none;
+    color: rgb(156, 153, 153);
+
+}
+
+.header_2{
+    background: url(Images/Homepage-Model-Y-Global-Desktop.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+    scroll-margin: 100%;
+}
+
+.header_2 h1{
+    padding-top: 100px;
+}
+
+.header_3 h1{
+    padding-top: 100px;
+}
+
+.header_3{
+    background: url(Images/Model\ S.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+}
+
+.header_3 a{
+    color: black;
+}
+
+.header_4 h1{
+    padding-top: 100px;
+}
+
+.header_4 a{
+    color: black;
+}
+
+.header_4 h1{
+    padding-top: 100px;
+}
+
+.header_4{
+    background: url(Images/Model_X.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+}
+
+.header_5 h1{
+    padding-top: 100px;
+}
+
+.header_5 a{
+    color: black;
+}
+
+.header_5{
+    background: url(Images/Solar_Panel&Houses.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+}
+
+.header_6 h1{
+    padding-top: 100px;
+}
+
+.header_6 a{
+    color: black;
+}
+
+.header_6{
+    background: url(Images/Sola_Roof.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+}
+
+.header_7 h1{
+    padding-top: 100px;
+}
+
+.header_7{
+    background: url(Images/Accessorie.jfif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+}
+
+.button_3{
+    width: 275px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+}
+
+.button_3_text{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.footer ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.footer_mobile{
+    display: none;
+}
+
+/* Laptop Responsiveness */
+
+@media (max-width: 992px){
+
+    .header_1{
+        text-align: center;
+        justify-content:start;
+        background: url(Images/Mobile_2/Homepage-Model-3-LHD-Mobile.jfif);
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+    
+    }
+    
+    .header_1 h6{
+        background-color: white;
+        color: black;
+        height: 40px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 100;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+    }
+
+    nav li{
+        display: none;
+    }
+
+    .logo{
+        width: 150px;
+        margin-top:15px;
+    }
+
+    .menu_for_mobile{
+        display: block;
+        color: black;
+        background-color: #cacbcc;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding: 3px 15px;
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+
+    .menu_for_mobile h5{
+        font-size: 15px;
+    }
+    
+    .mobile_menu{
+        display: block;
+        width: 300px;
+        background-color: white;
+        position: fixed;
+        right: -300px;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .mobile_menu .cancel{
+        margin-top: 15px;
+        list-style: none;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+
+    .mobile_menu li{
+        margin-top: 45px;
+        list-style: none;
+        text-align: left;
+    }
+
+
+    .mobile_menu li a{
+        text-decoration: none;
+        list-style: none;
+        line-height: 1;
+        color: black;
+    }
+
+    .header_1 h1{
+        padding-top: 100px;
+    }
+    
+    .buttons{
+        margin-top: 120%;
+    }
+    
+    .button_1{
+        width: 275px;
+        height: 40px;
+        background-color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .button_2{
+        width: 275px;
+        height: 40px;
+        background-color: white;
+        color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_1_text{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button_2_text{
+        text-decoration: none;
+        color: rgb(156, 153, 153);
+    
+    }
+
+    .header_2{
+        background: url(Images/Homepage-Model-Y-Global-Desktop.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+        scroll-margin: 100%;
+    }
+    
+    .header_2 h1{
+        padding-top: 100px;
+    }
+    
+    .header_3 h1{
+        padding-top: 100px;
+    }
+    
+    .header_3{
+        background: url(Images/Model\ S.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_3 a{
+        color: black;
+    }
+    
+    .header_4 h1{
+        padding-top: 100px;
+    }
+    
+    .header_4 a{
+        color: black;
+    }
+    
+    .header_4 h1{
+        padding-top: 100px;
+    }
+    
+    .header_4{
+        background: url(Images/Model_X.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_5 h1{
+        padding-top: 100px;
+    }
+    
+    .header_5 a{
+        color: black;
+    }
+    
+    .header_5{
+        background: url(Images/Solar_Panel&Houses.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_6 h1{
+        padding-top: 100px;
+    }
+    
+    .header_6 a{
+        color: black;
+    }
+    
+    .header_6{
+        background: url(Images/Sola_Roof.webp);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+
+    .header_7 h1{
+        padding-top: 100px;
+    }
+    
+    .header_7{
+        background: url(Images/Accessorie.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .button_3{
+        width: 275px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_3_text{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+
+    .footer_mobile{
+        display: none;
+    }
+    
+}
+
+/* Tablet Responsiveness */
+
+@media (max-width: 820px){
+    
+    .header_1 h6{
+        background-color: white;
+        color: black;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 100;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+    }
+    
+    .buttons{
+        margin-top: 100%;
+    }
+    
+    .footer{
+        display: inline-flex;
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+@media (max-width: 768px){
+
+    .header_1{
+        text-align: center;
+        justify-content:start;
+        background: url(Images/Mobile_2/Homepage-Model-3-LHD-Mobile.jfif);
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+    
+    }
+    
+    .header_1 h6{
+        background-color: white;
+        color: black;
+        height: 75px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 100;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+    }
+
+    nav li{
+        display: none;
+    }
+
+    .logo{
+        width: 150px;
+        margin-top:15px;
+    }
+
+    .menu_for_mobile{
+        display: block;
+        color: black;
+        background-color: #cacbcc;
+        border-radius: 5px;
+        padding: 3px 15px;
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+
+    .menu_for_mobile h5{
+        font-size: 15px;
+    }
+    
+    .mobile_menu{
+        display: block;
+        width: 300px;
+        background-color: white;
+        position: fixed;
+        right: -300px;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .mobile_menu .cancel{
+        margin-top: 15px;
+        list-style: none;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+
+    .mobile_menu li{
+        margin-top: 45px;
+        list-style: none;
+        text-align: left;
+    }
+
+
+    .mobile_menu li a{
+        text-decoration: none;
+        list-style: none;
+        line-height: 1;
+        color: black;
+    }
+
+    .header_1 h1{
+        padding-top: 100px;
+    }
+    
+    .buttons{
+        margin-top: 100%;
+    }
+    
+    .button_1{
+        width: 275px;
+        height: 40px;
+        background-color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    
+    .button_2{
+        width: 275px;
+        height: 40px;
+        background-color: white;
+        color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_1_text{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button_2_text{
+        text-decoration: none;
+        color: rgb(156, 153, 153);
+    
+    }
+
+
+
+    .header_2{
+        background: url(Images/Homepage-Model-Y-Global-Desktop.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+        scroll-margin: 100%;
+    }
+    
+    .header_2 h1{
+        padding-top: 100px;
+    }
+    
+    .header_3 h1{
+        padding-top: 100px;
+    }
+    
+    .header_3{
+        background: url(Images/Model\ S.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_3 a{
+        color: black;
+    }
+    
+    .header_4 h1{
+        padding-top: 100px;
+    }
+    
+    .header_4 a{
+        color: black;
+    }
+    
+    .header_4 h1{
+        padding-top: 100px;
+    }
+    
+    .header_4{
+        background: url(Images/Model_X.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_5 h1{
+        padding-top: 100px;
+    }
+    
+    .header_5 a{
+        color: black;
+    }
+    
+    .header_5{
+        background: url(Images/Solar_Panel&Houses.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_6 h1{
+        padding-top: 100px;
+    }
+    
+    .header_6 a{
+        color: black;
+    }
+    
+    .header_6{
+        background: url(Images/Sola_Roof.webp);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .header_7 h1{
+        padding-top: 100px;
+    }
+    
+    .header_7{
+        background: url(Images/Accessorie.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+
+    .button_3_text{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .footer{
+        display: none;
+    }
+
+
+    .footer_mobile{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 90px;
+    }
+
+    .footer_mobile ul a{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+        padding: 0 -15px;
+        line-height: 1;
+    }
+
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 576px){
+
+    .header_1{
+        text-align: center;
+        justify-content:start;
+        background: url(Images/Mobile_2/Homepage-Model-3-LHD-Mobile.jfif);
+        background-size: cover; 
+        background-position: center;
+        height: 100vh;
+    
+    }
+    
+    .header_1 h6{
+        background-color: white;
+        color: black;
+        height: 75px;
+        text-align: center;
+        justify-content: center;
+        font-weight: 100;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+    }
+
+    nav li{
+        display: none;
+    }
+
+    .logo{
+        width: 150px;
+        margin-top:15px;
+    }
+
+    .menu_for_mobile{
+        display: block;
+        color: black;
+        background-color: #cacbcc;
+        border-radius: 5px;
+        padding: 3px 15px;
+        margin-top: 17px;
+        margin-right: 15px;
+    }
+
+    .menu_for_mobile h5{
+        font-size: 15px;
+    }
+    
+    .mobile_menu{
+        display: block;
+        width: 300px;
+        background-color: white;
+        position: fixed;
+        right: -300px;
+        height: 100vh;
+        overflow: scroll;
+    }
+
+    .mobile_menu .cancel{
+        margin-top: 15px;
+        list-style: none;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+
+    .mobile_menu li{
+        margin-top: 45px;
+        list-style: none;
+        text-align: left;
+    }
+
+
+    .mobile_menu li a{
+        text-decoration: none;
+        list-style: none;
+        line-height: 1;
+        color: black;
+    }
+
+    .header_1 h1{
+        padding-top: 100px;
+    }
+    
+    .buttons{
+        width: 80%;
+        margin-top: 120%;
+        margin-left: 10%;
+    }
+
+    .button_1{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .button_2{
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_1_text{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button_2_text{
+        text-decoration: none;
+        color: rgb(156, 153, 153);
+    }
+
+    .header_2{
+        background: url(Images/Mobile_2/Homepage-ModelY-LHD-Mobile3.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+        scroll-margin: 100%;
+    }
+    
+    .header_2 h1{
+        padding-top: 100px;
+    }
+        
+    .header_3 h1{
+        padding-top: 100px;
+    }
+
+    .header_3{
+        background: url(Images/Mobile_2/Homepage-Model-S-LHD-Mobile.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+
+    .header_3 a{
+        color: black;
+    }
+
+    .header_4 h1{
+        padding-top: 100px;
+    }
+
+    .header_4 a{
+        color: black;
+    }
+
+    .header_4 h1{
+        padding-top: 100px;
+    }
+
+    .header_4{
+        background: url(Images/Mobile_2/Homepage-Model-X-LHD-Mobile.jfif);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+
+    .header_5 h1{
+        padding-top: 100px;
+    }
+
+    .header_5 a{
+        color: black;
+    }
+
+    .header_5{
+        background: url(Images/Mobile_2/Homepage-SolarPanels-Mobile.webp);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+
+    .header_6 h1{
+        padding-top: 100px;
+    }
+
+    .header_6 a{
+        color: black;
+    }
+
+    .header_6{
+        background: url(Images/Mobile_2/Homepage-SolarRoof-Mobile.webp);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+
+    .header_7 h1{
+        padding-top: 100px;
+    }
+    
+    .header_7{
+        background: url(Images/Mobile_2/Homepage-Accessories-Mobile.webp);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        justify-content: center; 
+        text-align: center;
+        height: 100%;
+    }
+    
+    .button_3{
+        width: 275px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-width: 0;
+        border-radius: 5px;
+        margin-top: 0;
+    }
+    
+    .button_3_text{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .footer{
+        display: none;
+    }
+
+
+    .footer_mobile{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: -30%;
+    }
+
+    .footer_mobile ul a{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+        line-height: 1;
+    }
+
+
+}
+
+@media (max-width: 540px){
+
+    .buttons{
+        width: 80%;
+        margin-top: 80%;
+        margin-left: 10%;
+    }
+
+    .button_1{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .button_2{
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_1_text{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button_2_text{
+        text-decoration: none;
+        color: rgb(156, 153, 153);
+    }
+    
+    .button_3{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-width: 0;
+        border-radius: 5px;
+        margin-top: -20%;
+    }
+    
+    .button_3_text{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .footer_mobile{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+    }
+}
+
+@media (max-width: 412px){
+
+    .buttons{
+        width: 80%;
+        margin-top: 100%;
+    }
+
+    .button_1{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .button_2{
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_1_text{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button_2_text{
+        text-decoration: none;
+        color: rgb(156, 153, 153);
+    }
+    
+    .button_3{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-width: 0;
+        border-radius: 5px;
+        margin-top: 15%;
+    }
+    
+    .button_3_text{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .footer_mobile{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+    }
+}
+
+@media (max-width: 375px){
+
+    .buttons{
+        width: 80%;
+        margin-top: 80%;
+        margin-left: 10%;
+    }
+
+    .button_1{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .button_2{
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        color: rgb(156, 153, 153);
+        border-width: 0;
+        border-radius: 5px;
+    }
+    
+    .button_1_text{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button_2_text{
+        text-decoration: none;
+        color: rgb(156, 153, 153);
+    }
+    
+    .button_3{
+        width: 275px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-width: 0;
+        border-radius: 5px;
+        margin-top: 30%;
+    }
+    
+    .button_3_text{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .footer_mobile{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+    }
+
+
+
+
+
+
+}
